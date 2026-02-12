@@ -1,152 +1,85 @@
-# ZeroDay Market
 
-<p align="center">
-  <strong>A production-grade e-commerce platform built for security research and penetration testing.</strong>
-</p>
+# ZeroDay Market — Gadget Marketplace
 
----
+<svg width="72" height="72" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <rect x="1.5" y="3" width="21" height="13" rx="1.5" stroke="#0f172a" stroke-width="0.9" fill="none"/>
+  <path d="M6 19h12" stroke="#0f172a" stroke-width="0.9" stroke-linecap="round"/>
+  <circle cx="8.5" cy="19" r="0.9" fill="#0f172a"/>
+  <circle cx="15.5" cy="19" r="0.9" fill="#0f172a"/>
+</svg>
 
-## Overview
+Welcome to ZeroDay Market — a lively online gadget marketplace that looks, feels, and behaves like a modern e-commerce site. Browse devices, add items to your cart, check out, and follow transaction flows that resemble production systems.
 
-ZeroDay Market is a fully functional, realistic e-commerce platform designed as a security training lab. It features a modern UI, wallet-based payments, promotional offers, a full order lifecycle, and an admin management panel.
+There is a single, purposeful defect hidden somewhere in the application. No hints are given here — your task is to explore, reason, and demonstrate the issue through responsible testing. When you successfully reveal the required condition inside the running application, a confirmation popup will appear.
 
-The platform is purpose-built for security professionals and pentesters to practice identifying and exploiting **advanced business logic vulnerabilities** in a safe, legal environment.
+## Key Notes
 
-> 💡 *Take advantage of our limited-time cashback and coupon offer before it expires.*
+- Use this repository only in environments where you have explicit permission.
+- No solution steps, hints, or answers are included in this document.
+- This is a challenging exercise intended for people comfortable with application analysis and testing.
 
----
+## What You Can Do Here
 
-## Features
+- Browse a product catalog of consumer gadgets.
+- Create an account and exercise normal user flows (cart, checkout, order history).
+- Observe state changes, transaction records, and UI feedback as you interact with the app.
 
-- **Modern E-Commerce UI** — Clean, responsive product catalog with detail pages, cart, and checkout
-- **Wallet System** — Full digital wallet with balance tracking, transaction history, debits, and credits
-- **Authentication** — Secure JWT-based registration and login with bcrypt password hashing
-- **Promotional Engine** — Live cashback offers and coupon generation for qualifying purchases
-- **Order Management** — Complete order lifecycle with status tracking and selective refund eligibility
-- **Admin Dashboard** — Internal management panel with user, order, and revenue analytics
-- **Notification System** — Real-time alerts for cashback, coupons, refunds, and account activity
+Can you find the defect that changes the normal flow? The application will tell you when you've completed the objective.
 
----
+## Prerequisites
 
-## Tech Stack
-
-| Layer      | Technology                        |
-|------------|-----------------------------------|
-| Frontend   | React 18, Vite, Tailwind CSS      |
-| Backend    | Node.js, Express, Sequelize ORM   |
-| Database   | PostgreSQL 16                     |
-| Auth       | JWT + bcrypt                      |
-| Icons      | Lucide React (SVG)                |
-| Container  | Docker, Docker Compose            |
-| Proxy      | Nginx                            |
-
----
+- `git` installed
+- Docker Engine
+- Docker Compose
+- A modern web browser
 
 ## Quick Start
 
-### Prerequisites
-
-- [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/)
-
-### Launch
+1. Clone the repository and change into it:
 
 ```bash
-git clone https://github.com/your-org/zeroday-market.git
-cd zeroday-market
-docker-compose up --build
+git clone <https://github.com/cybersecuritylabs/zerodaymarket>
+cd <'ZeroDay Market'>
 ```
 
-Open **http://localhost** in your browser.
-
-### Default Accounts
-
-| Role  | Email                     | Password         |
-|-------|---------------------------|------------------|
-| Admin | admin@zerodaymarket.io    | Admin@ZDM2024!   |
-
-Regular users can register through the Sign Up page.
-
----
-
-## Project Structure
-
-```
-ZeroDay Market/
-├── docker-compose.yml
-├── README.md
-├── ARCHITECTURE.md
-├── .env.example
-├── backend/
-│   ├── Dockerfile
-│   ├── package.json
-│   └── src/
-│       ├── server.js
-│       ├── config/
-│       ├── models/
-│       ├── middleware/
-│       ├── services/
-│       ├── routes/
-│       └── seed/
-└── frontend/
-    ├── Dockerfile
-    ├── nginx.conf
-    ├── package.json
-    ├── vite.config.js
-    └── src/
-        ├── App.jsx
-        ├── api/
-        ├── context/
-        ├── components/
-        └── pages/
-```
-
----
-
-## Architecture
-
-See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system architecture documentation.
-
----
-
-## Environment Variables
-
-Copy `.env.example` and configure:
+2. Build and run the application stack (Docker must be run in background):
 
 ```bash
-cp .env.example .env
+docker-compose up --build -d
 ```
 
-All required variables are pre-configured in `docker-compose.yml` for local development.
+3. Open your browser and navigate to:
 
----
+```
+http://localhost
+```
 
-## Security Considerations
+4. Tail logs to watch services start and for runtime messages:
 
-This platform implements production-grade security practices:
+```bash
+docker-compose logs -f
+```
 
-- Parameterized queries via Sequelize ORM (no raw SQL)
-- bcrypt password hashing with configurable salt rounds
-- JWT authentication with expiry
-- Helmet.js HTTP security headers
-- CORS origin restriction
-- Rate limiting on all API endpoints
-- Input validation and sanitization
-- Role-based access control on admin endpoints
+5. you can stop containers when you want by:
 
----
+```bash
+docker-compose stop
+```
 
-## Lab Usage
+5. you can start the containers again when you want by:
 
-This platform is designed for **authorized security research only**. Use it to:
+```bash
+docker-compose start
+```
 
-- Practice business logic analysis
-- Understand e-commerce payment flows
-- Study wallet and transaction systems
-- Analyze promotional offer mechanics
-- Explore multi-step financial processes
+## No Spoilers
 
----
+This README intentionally avoids technical details that would reveal how to find or exploit the defect. If you discover any accidental leaks or repository issues that could reveal the solution unintentionally, open an issue without posting sensitive details publicly.
+
+## Contributing
+
+Improvements to the project infrastructure, deployment scripts, and documentation are welcome. Please do not contribute solution walkthroughs, exploit code, or explicit hints.
 
 ## License
 
-MIT — For educational and research purposes only.
+MIT — for educational and experimental use only.
