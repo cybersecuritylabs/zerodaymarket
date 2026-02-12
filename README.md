@@ -34,6 +34,8 @@ This isn't just another shopping site — it's a living, breathing security lab 
 ! WARNING: ONE CRITICAL VULNERABILITY EXISTS IN THIS APPLICATION
 + Your mission: Find it. Exploit it. Prove it.
 - The system will confirm when you've achieved the impossible.
+
+
 </div>
 
 ---
