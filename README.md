@@ -54,19 +54,13 @@ docker-compose up --build -d
 http://localhost
 ```
 
-4. Tail logs to watch services start and for runtime messages:
-
-```bash
-docker-compose logs -f
-```
-
-5. you can stop containers when you want by:
+4. you can stop containers when you want by (Optional):
 
 ```bash
 docker-compose stop
 ```
 
-5. you can start the containers again when you want by:
+5. you can start the containers again when you want by (If stooped):
 
 ```bash
 docker-compose start
