@@ -37,7 +37,7 @@ This isn't just another shopping site — it's a living, breathing security lab 
 
 ---
 
-## 🎯 **THE CHALLENGE**
+##  **THE CHALLENGE**
 
 <table>
 <tr>
@@ -62,7 +62,7 @@ A single, carefully hidden defect lurks beneath the surface of what appears to b
 
 <div align="center">
 
-### 🔓 **WHEN YOU FIND IT, THE APP ITSELF WILL TELL YOU.**
+###  **WHEN YOU FIND IT, THE APP ITSELF WILL TELL YOU.**
 
 A confirmation popup will appear. No guessing. No maybes.  
 Either you've exploited the vulnerability... or you haven't.
@@ -71,13 +71,13 @@ Either you've exploited the vulnerability... or you haven't.
 
 ---
 
-## 🎮 **WHAT YOU'RE WORKING WITH**
+##  **WHAT YOU'RE WORKING WITH**
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🛒 **Full E-Commerce Experience**
+###  **Full E-Commerce Experience**
 
 ```
 ┌─────────────────────────┐
@@ -116,7 +116,7 @@ Just you, the application, and your skills.
 
 ---
 
-## 🚀 **DEPLOYMENT**
+##  **DEPLOYMENT**
 
 <details>
 <summary><b>📋 Prerequisites</b> (click to expand)</summary>
@@ -151,7 +151,7 @@ docker-compose up --build -d
 
 <div align="center">
 
-### 🎯 **Container Management**
+###  **Container Management**
 
 | Command | Action |
 |---------|--------|
@@ -198,7 +198,7 @@ No solutions in this README. No hints in the code comments. No shortcuts. The ch
 </td>
 <td width="33%" align="center" valign="top">
 
-### 🏆 **PROOF**
+###  **PROOF**
 
 ```
 ┌─────────────┐
@@ -215,22 +215,6 @@ When you successfully trigger the vulnerability, a **confirmation popup** will a
 
 ---
 
-## 🧠 **HINTS (NOT REALLY)**
-
-<div align="center">
-
-```
-╔════════════════════════════════════════════════════════════╗
-║                                                            ║
-║  "The best place to hide something is in plain sight."    ║
-║                                                            ║
-║  "Trust, but verify. Especially verify."                  ║
-║                                                            ║
-║  "Every transaction tells a story. Read between the       ║
-║   lines."                                                  ║
-║                                                            ║
-╚════════════════════════════════════════════════════════════╝
-```
 
 </div>
 
@@ -239,7 +223,7 @@ Now think like an **attacker**.
 
 ---
 
-## 🤝 **CONTRIBUTING**
+##  **CONTRIBUTING**
 
 We welcome contributions that improve the **infrastructure**, **deployment**, or **documentation**:
 
@@ -263,7 +247,7 @@ Open an issue **without** posting sensitive details publicly.
 
 ---
 
-## 📜 **LICENSE**
+##  **LICENSE**
 
 ```
 MIT License — Educational and experimental use only.
@@ -277,7 +261,7 @@ use discovered techniques responsibly.
 
 <div align="center">
 
-## 🎯 **ARE YOU READY?**
+##  **ARE YOU READY?**
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -295,7 +279,7 @@ use discovered techniques responsibly.
 
 <br>
 
-**⚡ GOOD LUCK, HUNTER. ⚡**
+** GOOD LUCK, HUNTER. **
 
 <br>
 
