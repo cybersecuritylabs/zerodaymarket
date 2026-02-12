@@ -39,7 +39,7 @@ Can you find the defect that changes the normal flow? The application will tell 
 
 ```bash
 git clone https://github.com/cybersecuritylabs/zerodaymarket
-cd 'ZeroDay Market'
+cd zerodaymarket
 ```
 
 2. Build and run the application stack (Docker must be run in background):
