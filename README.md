@@ -16,7 +16,6 @@
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   
 ```
 
-
 <p align="center">
   <img src="https://img.shields.io/badge/Difficulty-Expert-ff0000?style=for-the-badge&logo=target&logoColor=white" />
   <img src="https://img.shields.io/badge/Category-Web_Security-00d9ff?style=for-the-badge&logo=hackaday&logoColor=white" />
@@ -32,7 +31,7 @@ This isn't just another shopping site — it's a living, breathing security lab 
 ! WARNING: ONE CRITICAL VULNERABILITY EXISTS IN THIS APPLICATION
 + Your mission: Find it. Exploit it. Prove it.
 - The system will confirm when you've achieved the impossible.
-
+```
 
 </div>
 
