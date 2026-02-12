@@ -285,6 +285,6 @@ GOOD LUCK, HUNTER
 
 ---
 
-<sub>Made with 💀 by [CyberSecurityLabs](https://github.com/cybersecuritylabs) | Star ⭐ this repo if you crack it</sub>
+<sub>Star ⭐ this repo if you crack it</sub>
 
 </div>
