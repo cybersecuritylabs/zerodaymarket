@@ -1,79 +1,306 @@
+<div align="center">
 
-# ZeroDay Market — Gadget Marketplace
+```
+███████╗███████╗██████╗  ██████╗ ██████╗  █████╗ ██╗   ██╗
+╚══███╔╝██╔════╝██╔══██╗██╔═══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝
+  ███╔╝ █████╗  ██████╔╝██║   ██║██║  ██║███████║ ╚████╔╝ 
+ ███╔╝  ██╔══╝  ██╔══██╗██║   ██║██║  ██║██╔══██║  ╚██╔╝  
+███████╗███████╗██║  ██║╚██████╔╝██████╔╝██║  ██║   ██║   
+╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
+                                                            
+███╗   ███╗ █████╗ ██████╗ ██╗  ██╗███████╗████████╗
+████╗ ████║██╔══██╗██╔══██╗██║ ██╔╝██╔════╝╚══██╔══╝
+██╔████╔██║███████║██████╔╝█████╔╝ █████╗     ██║   
+██║╚██╔╝██║██╔══██║██╔══██╗██╔═██╗ ██╔══╝     ██║   
+██║ ╚═╝ ██║██║  ██║██║  ██║██║  ██╗███████╗   ██║   
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   
+```
 
-<svg width="72" height="72" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <rect x="1.5" y="3" width="21" height="13" rx="1.5" stroke="#0f172a" stroke-width="0.9" fill="none"/>
-  <path d="M6 19h12" stroke="#0f172a" stroke-width="0.9" stroke-linecap="round"/>
-  <circle cx="8.5" cy="19" r="0.9" fill="#0f172a"/>
-  <circle cx="15.5" cy="19" r="0.9" fill="#0f172a"/>
-</svg>
+<p align="center">
+  <img src="https://img.shields.io/badge/Difficulty-Expert-ff0000?style=for-the-badge&logo=target&logoColor=white" />
+  <img src="https://img.shields.io/badge/Category-Web_Security-00d9ff?style=for-the-badge&logo=hackaday&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Active-00ff00?style=for-the-badge&logo=statuspage&logoColor=white" />
+</p>
 
-Welcome to ZeroDay Market — a lively online gadget marketplace that looks, feels, and behaves like a modern e-commerce site. Browse devices, add items to your cart, check out, and follow transaction flows that resemble production systems.
+<h3>⚡ A High-Stakes E-Commerce Security Challenge ⚡</h3>
 
-There is a single, purposeful defect hidden somewhere in the application. No hints are given here — your task is to explore, reason, and demonstrate the issue through responsible testing. When you successfully reveal the required condition inside the running application, a confirmation popup will appear.
+**Welcome to the digital underground's favorite gadget marketplace.**  
+This isn't just another shopping site — it's a living, breathing security lab disguised as production infrastructure.
 
-## Key Notes
+```diff
+! WARNING: ONE CRITICAL VULNERABILITY EXISTS IN THIS APPLICATION
++ Your mission: Find it. Exploit it. Prove it.
+- The system will confirm when you've achieved the impossible.
+```
 
-- Use this repository only in environments where you have explicit permission.
-- No solution steps, hints, or answers are included in this document.
-- This is a challenging exercise intended for people comfortable with application analysis and testing.
+</div>
 
-## What You Can Do Here
+---
 
-- Browse a product catalog of consumer gadgets.
-- Create an account and exercise normal user flows (cart, checkout, order history).
-- Observe state changes, transaction records, and UI feedback as you interact with the app.
+## 🎯 **THE CHALLENGE**
 
-Can you find the defect that changes the normal flow? The application will tell you when you've completed the objective.
+<table>
+<tr>
+<td width="60px" align="center">
 
-## Prerequisites
+```
+  ╔═══╗
+  ║ ? ║
+  ╚═══╝
+```
 
-- `git` installed
-- Docker Engine
-- Docker Compose
-- A modern web browser
+</td>
+<td>
 
-## Quick Start
+**Something is fundamentally broken in this marketplace.**
 
-1. Clone the repository and change into it:
+A single, carefully hidden defect lurks beneath the surface of what appears to be a legitimate e-commerce platform. It's not a toy bug. It's not a configuration mistake. It's a real architectural flaw that could exist in production systems worldwide.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 🔓 **WHEN YOU FIND IT, THE APP ITSELF WILL TELL YOU.**
+
+A confirmation popup will appear. No guessing. No maybes.  
+Either you've exploited the vulnerability... or you haven't.
+
+</div>
+
+---
+
+## 🎮 **WHAT YOU'RE WORKING WITH**
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🛒 **Full E-Commerce Experience**
+
+```
+┌─────────────────────────┐
+│  ✓ Product Catalog      │
+│  ✓ User Registration    │
+│  ✓ Shopping Cart        │
+│  ✓ Checkout Flow        │
+│  ✓ Order History        │
+│  ✓ Transaction Records  │
+└─────────────────────────┘
+```
+
+Browse consumer electronics, add items to your cart, create accounts, and complete purchases through realistic transaction flows.
+
+</td>
+<td width="50%" valign="top">
+
+### 💀 **Your Arsenal**
+
+```
+┌─────────────────────────┐
+│  ⚡ Browser DevTools    │
+│  🔍 HTTP Interceptors   │
+│  🧠 Critical Thinking   │
+│  🎯 Persistence         │
+│  💻 Terminal Access     │
+└─────────────────────────┘
+```
+
+No hints. No handholding. No walkthroughs.  
+Just you, the application, and your skills.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 **DEPLOYMENT**
+
+<details>
+<summary><b>📋 Prerequisites</b> (click to expand)</summary>
+
+<br>
+
+| Tool | Purpose | Installation |
+|------|---------|--------------|
+| ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) | Version control | `apt-get install git` / `brew install git` |
+| ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | Containerization | [Get Docker](https://docs.docker.com/get-docker/) |
+| ![Docker Compose](https://img.shields.io/badge/-Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white) | Multi-container orchestration | Included with Docker Desktop |
+| ![Browser](https://img.shields.io/badge/-Modern_Browser-4285F4?style=flat-square&logo=google-chrome&logoColor=white) | Interface | Chrome, Firefox, Edge, Safari |
+
+</details>
+
+### ⚡ **Quick Start**
 
 ```bash
+# 1️⃣ Clone the repository
 git clone https://github.com/cybersecuritylabs/zerodaymarket
 cd zerodaymarket
-```
 
-2. Build and run the application stack (Docker must be run in background):
-
-```bash
+# 2️⃣ Launch the infrastructure
 docker-compose up --build -d
+
+# 3️⃣ Navigate to the marketplace
+# Open: http://localhost
+
+# 4️⃣ Begin your hunt
+# The clock is ticking...
 ```
 
-3. Open your browser and navigate to:
+<div align="center">
+
+### 🎯 **Container Management**
+
+| Command | Action |
+|---------|--------|
+| `docker-compose stop` | Pause all containers |
+| `docker-compose start` | Resume containers |
+| `docker-compose down` | Teardown everything |
+| `docker-compose logs -f` | Monitor live logs |
+
+</div>
+
+---
+
+## ⚠️ **RULES OF ENGAGEMENT**
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 🎯 **SCOPE**
 
 ```
-http://localhost
+┌─────────────┐
+│  LOCALHOST  │
+│    ONLY     │
+└─────────────┘
 ```
 
-4. you can stop containers when you want by (Optional):
+This lab is for **controlled environments** where you have **explicit permission**. Do not deploy this against systems you don't own.
 
-```bash
-docker-compose stop
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🤐 **NO SPOILERS**
+
+```
+┌─────────────┐
+│  DISCOVER   │
+│   IT YOURSELF│
+└─────────────┘
 ```
 
-5. you can start the containers again when you want by (If stooped):
+No solutions in this README. No hints in the code comments. No shortcuts. The challenge is **intentionally difficult**.
 
-```bash
-docker-compose start
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🏆 **PROOF**
+
+```
+┌─────────────┐
+│  THE APP    │
+│  CONFIRMS   │
+└─────────────┘
 ```
 
-## No Spoilers
+When you successfully trigger the vulnerability, a **confirmation popup** will appear. That's your proof of concept.
 
-This README intentionally avoids technical details that would reveal how to find or exploit the defect. If you discover any accidental leaks or repository issues that could reveal the solution unintentionally, open an issue without posting sensitive details publicly.
+</td>
+</tr>
+</table>
 
-## Contributing
+---
 
-Improvements to the project infrastructure, deployment scripts, and documentation are welcome. Please do not contribute solution walkthroughs, exploit code, or explicit hints.
+## 🧠 **HINTS (NOT REALLY)**
 
-## License
+<div align="center">
 
-MIT — for educational and experimental use only.
+```
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║  "The best place to hide something is in plain sight."    ║
+║                                                            ║
+║  "Trust, but verify. Especially verify."                  ║
+║                                                            ║
+║  "Every transaction tells a story. Read between the       ║
+║   lines."                                                  ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+Still stuck? Good. That means you're **thinking like a defender**.  
+Now think like an **attacker**.
+
+---
+
+## 🤝 **CONTRIBUTING**
+
+We welcome contributions that improve the **infrastructure**, **deployment**, or **documentation**:
+
+✅ **Accepted Contributions:**
+- Docker optimization
+- Cross-platform compatibility fixes  
+- Documentation improvements
+- Infrastructure enhancements
+
+❌ **Rejected Contributions:**
+- Solution walkthroughs
+- Exploit code or hints
+- Vulnerability disclosures in public issues
+
+<div align="center">
+
+**Found an unintentional leak that reveals the solution?**  
+Open an issue **without** posting sensitive details publicly.
+
+</div>
+
+---
+
+## 📜 **LICENSE**
+
+```
+MIT License — Educational and experimental use only.
+
+This software is provided for learning purposes. By using this
+lab, you agree to test only in authorized environments and to
+use discovered techniques responsibly.
+```
+
+---
+
+<div align="center">
+
+## 🎯 **ARE YOU READY?**
+
+```
+┌─────────────────────────────────────────────────┐
+│                                                 │
+│  Thousands have tried.                          │
+│  Hundreds have failed.                          │
+│  Will you be the one to break it?               │
+│                                                 │
+│  ▶ docker-compose up --build -d                 │
+│                                                 │
+│  The marketplace awaits.                        │
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+<br>
+
+**⚡ GOOD LUCK, HUNTER. ⚡**
+
+<br>
+
+---
+
+<sub>Made with 💀 by [CyberSecurityLabs](https://github.com/cybersecuritylabs) | Star ⭐ this repo if you crack it</sub>
+
+</div>
