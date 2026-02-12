@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/Status-Active-00ff00?style=for-the-badge&logo=statuspage&logoColor=white" />
 </p>
 
-<h3>⚡ A High-Stakes E-Commerce Security Challenge ⚡</h3>
+<h3> A High-Stakes E-Commerce Security Challenge </h3>
 
 **Welcome to the digital underground's favorite gadget marketplace.**  
 This isn't just another shopping site — it's a living, breathing security lab disguised as production infrastructure.
@@ -164,13 +164,13 @@ docker-compose up --build -d
 
 ---
 
-## ⚠️ **RULES OF ENGAGEMENT**
+##  **RULES OF ENGAGEMENT**
 
 <table>
 <tr>
 <td width="33%" align="center" valign="top">
 
-### 🎯 **SCOPE**
+###  **SCOPE**
 
 ```
 ┌─────────────┐
@@ -184,7 +184,7 @@ This lab is for **controlled environments** where you have **explicit permission
 </td>
 <td width="33%" align="center" valign="top">
 
-### 🤐 **NO SPOILERS**
+###  **NO SPOILERS**
 
 ```
 ┌─────────────┐
@@ -279,7 +279,7 @@ use discovered techniques responsibly.
 
 <br>
 
-** GOOD LUCK, HUNTER. **
+GOOD LUCK, HUNTER 
 
 <br>
 
