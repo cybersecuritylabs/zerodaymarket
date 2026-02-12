@@ -15,9 +15,7 @@
 ██║ ╚═╝ ██║██║  ██║██║  ██║██║  ██╗███████╗   ██║   
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   
 ```
-</div>
 
-<div align="center">
 
 <p align="center">
   <img src="https://img.shields.io/badge/Difficulty-Expert-ff0000?style=for-the-badge&logo=target&logoColor=white" />
