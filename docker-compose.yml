@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: zdm-postgres
+    environment:
+      POSTGRES_DB: zerodaymarket
+      POSTGRES_USER: zdm_user
+      POSTGRES_PASSWORD: zdm_s3cur3_p@ssw0rd_2024
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - zdm-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U zdm_user -d zerodaymarket"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: zdm-backend
+    environment:
+      NODE_ENV: production
+      PORT: 3001
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: zerodaymarket
+      DB_USER: zdm_user
+      DB_PASSWORD: zdm_s3cur3_p@ssw0rd_2024
+      JWT_SECRET: zdm_jwt_k3y_x9f2m7q4w8_pr0duct10n
+      CORS_ORIGIN: http://localhost
+      INITIAL_WALLET_BALANCE: 50.00
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - zdm-network
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: zdm-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - zdm-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+
+networks:
+  zdm-network:
+    driver: bridge
