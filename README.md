@@ -30,11 +30,10 @@
 **Welcome to the digital underground's favorite gadget marketplace.**  
 This isn't just another shopping site — it's a living, breathing security lab disguised as production infrastructure.
 
-<p align="center">
+```diff
 ! WARNING: ONE CRITICAL VULNERABILITY EXISTS IN THIS APPLICATION
 + Your mission: Find it. Exploit it. Prove it.
-- The system will confirm when you've achieved the impossible!
-</p> 
+- The system will confirm when you've achieved the impossible.
 </div>
 
 ---
