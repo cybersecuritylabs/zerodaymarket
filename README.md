@@ -38,8 +38,8 @@ Can you find the defect that changes the normal flow? The application will tell 
 1. Clone the repository and change into it:
 
 ```bash
-git clone <https://github.com/cybersecuritylabs/zerodaymarket>
-cd <'ZeroDay Market'>
+git clone https://github.com/cybersecuritylabs/zerodaymarket
+cd 'ZeroDay Market'
 ```
 
 2. Build and run the application stack (Docker must be run in background):
